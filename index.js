@@ -4,9 +4,9 @@ let nav_items = document.querySelector("#nav-items")
 
 menu_open_btn.addEventListener('click',function(){
     nav_items.classList.toggle("hidden")
-    nav_items.classList.add("nav-items")
+    nav_items.classList.toggle("nav-items")
 })
 menu_close_btn.addEventListener('click',function(){
     nav_items.classList.toggle("nav-items")
-    nav_items.classList.add("hidden")
+    nav_items.classList.toggle("hidden")
 })
